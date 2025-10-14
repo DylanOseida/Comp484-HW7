@@ -1,26 +1,109 @@
 /* Color Palette
-# - color 1
-# - color 2
-# - color 3
-# - color 4
+#A7CECB - color 1
+
+#8BA6A9, #5F7A7D - color 2, darker shade
+
+#75704E, #595534 - color 3, darker shade
+
+#CACC90, #A8A360 - color 4, darker shade
+
+#F4EBBE, #D6C77E - color 5, darker shade
+
 */
+
 
 /* Global styles 
 ------------------------------------*/
-body {
-    /*background: lightblue;*/
+body, html {
+    background-color: #A7CECB;
+    font-family: 'PT Serif', serif;
+}
+
+body{
+    line-height: 1.6;
+    width: 90%;
+    margin: auto;
+}
+
+h1, h2, h3 {
+    font-family: 'Lato', sans-serif;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+h1 {
+    font-size: 2.5em;
+    font-weight: 700;
+}
+
+h2 {
+    font-size: 2em;
+    font-weight: 600;
+}
+
+h3 {
+    font-size: 1.5em;
+    font-weight: 400;
+}
+
+p, li {
+    font-size: 1em;
 }
 
 
-/* Header & Footer 
+
+/* Header
 ------------------------------------*/
+header{
+    background-color: #F4EBBE;
+    border: solid #D6C77E 20px;
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 1000px;
+    margin: 20px auto;
+}
 
-
+/* Image
+------------------------------------*/
+img {
+    border-radius: 100%;
+    width: 300px;
+    height: auto;
+    
+    
+}
 
 /* Work Experience
 ------------------------------------*/
-
+.work-experience{
+    background-color: #CACC90;
+    border: solid #A8A360 20px;
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 1000px;
+    margin: 20px auto;
+}
 
 
 /* Education
 ------------------------------------*/
+.education{
+    background-color: #75704E;
+    border: solid #595534 20px;
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 1000px;
+    margin: 20px auto;
+}
+
+
+/* Footer 
+------------------------------------*/
+footer{
+    background-color: #8BA6A9;
+    border: solid #5F7A7D 20px;
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 1000px;
+    margin: 20px auto;
+}
