@@ -13,67 +13,88 @@
 <body>
     <!-- // Intro -->
     <header>
-        <img src="images/profile-photo.jpg" alt="Dylan Oseida">
-        <h1>Dylan Oseida</h1>
-        <h2>Computer Science Student at CSUN | Web Developer Student Assistant at CSUN IT</h2>
-        <p> 
-            I am a Computer Science major at California State University, Northridge, with hands-on experience in machine learning, web development, and UX design. 
-            Currently, I work as a Web Developer Student Assistant at CSUN IT, where I am developing the CSUN AI Career Mentor — a full-stack web application built with React.js, FastAPI, LangChain, and open-source large language models.
-            I have technical skills in HTML, CSS, JavaScript, and modern web frameworks, and I am eager to apply my knowledge to real-world projects and continue growing as a developer.
-        </p>
+        <div class="content-wrap">
+            <img src="images/profile-photo.jpg" alt="Dylan Oseida" class="profile-img column-narrow">
+
+            <div class="column-wide">
+                <h1>Dylan Oseida</h1>
+                <h2>Computer Science Student at CSUN | Web Developer Student Assistant at CSUN IT</h2>
+                <p> 
+                    I am a Computer Science major at California State University, Northridge, with hands-on experience in machine learning, web development, and UX design. 
+                    Currently, I work as a Web Developer Student Assistant at CSUN IT, where I am developing the CSUN AI Career Mentor — a full-stack web application built with React.js, FastAPI, LangChain, and open-source large language models.
+                    I have technical skills in HTML, CSS, JavaScript, and modern web frameworks, and I am eager to apply my knowledge to real-world projects and continue growing as a developer.
+                </p>
+            </div>
+ 
+        </div>
+
     </header>
     
     <main> 
         <!-- // Work Experience -->
         <section class = "work-experience">
-            <h2>Work Experience</h2>
+            <div class="content-wrap">
 
-            <!-- Job Details: copy this whole block to add more jobs -->
+                <h2>Work Experience</h2>
 
-            <h3>CSU, Northridge: IT - Web Dev and Emerging Tech Team</h3>
-            <p><em>Student ML/Web Developer | June 2025 - Present</em></p>
-            <ul>
-                <li>Designing and developing the CSUN AI Career Mentor — researching and implementing LangChain, RAG pipelines, and open-source LLMs (Phi-3-mini, Qwen2.5-1.5B, GPT-OSS 20B).</li>
-                <li>Building a full-stack, responsive web interface with React.js and prototyping UI/UX in Figma.</li>
-                <li>Conducting benchmarking and cost modeling of various LLMs to assess performance and budget feasibility.</li>
-                <li>Researching GPU hardware and infrastructure requirements for deploying ML models on-prem.</li>
-                <li>Collaborating with campus leaders and stakeholders to ensure project alignment with CSUN's initiatives.</li>
-                <li>Awarded position through CSUN's AI Jam to present an AI-driven solution for a campus-wide challenge.</li>
-            </ul>
-            
-            <!-- Add as many paragraphs as you need. -->            
-            <!-- end of Job Details block. -->
-            
+                <!-- Job Details: copy this whole block to add more jobs -->
+
+                <div class="column-narrow">
+                    <h3>CSU, Northridge: IT - Web Dev and Emerging Tech Team</h3>
+                    <p><em>Student ML/Web Developer | June 2025 - Present</em></p>
+                </div>
+
+                <div class="column-wide">
+                    <ul>
+                        <li>Designing and developing the CSUN AI Career Mentor — researching and implementing LangChain, RAG pipelines, and open-source LLMs (Phi-3-mini, Qwen2.5-1.5B, GPT-OSS 20B).</li>
+                        <li>Building a full-stack, responsive web interface with React.js and prototyping UI/UX in Figma.</li>
+                        <li>Conducting benchmarking and cost modeling of various LLMs to assess performance and budget feasibility.</li>
+                        <li>Researching GPU hardware and infrastructure requirements for deploying ML models on-prem.</li>
+                        <li>Collaborating with campus leaders and stakeholders to ensure project alignment with CSUN's initiatives.</li>
+                        <li>Awarded position through CSUN's AI Jam to present an AI-driven solution for a campus-wide challenge.</li>
+                    </ul>
+                </div>
+
+                
+                <!-- Add as many paragraphs as you need. -->            
+                <!-- end of Job Details block. -->
+
+            </div>
         </section>
 
 
         <!-- // Education -->
         <section class = "education">
-            <h2>Education</h2>
+            <div class="content-wrap">
+                <h2>Education</h2>
 
-            <!-- School details: copy this whole block to add more schools. -->
-            <h3>California State University, Northridge / Los Angeles Pierce College</h3>
-            <p><em>Expected Spring 2026</em></p>
-            
-            <!-- Add as many paragraphs as you need. -->
-            <ul>
-                <li>Major: Computer Science B.S.</li>
-            </ul>
+                <!-- School details: copy this whole block to add more schools. -->
+                <h3>California State University, Northridge / Los Angeles Pierce College</h3>
+                <p><em>Expected Spring 2026</em></p>
+                
+                <!-- Add as many paragraphs as you need. -->
+                <ul>
+                    <li>Major: Computer Science B.S.</li>
+                </ul>
 
-            <!-- End of school details. -->
+                <!-- End of school details. -->
+            </div>
         </section>
     </main>
     
     <!-- // Footer & contact info -->
     <footer>
-        <h2>Let's Keep in Touch!</h2>
-        
-        <!-- Social media and contact links. Add or remove any networks. -->
-        <div>
-            <a href="mailto:email@example.com">dylan.oseida.103@my.csun.edu</a>
-        </div>
+        <div class="content-wrap">
+            <h2>Let's Keep in Touch!</h2>
 
-        <p>Copyright 2025 by Dylan Oseida</p>
+            <!-- Social media and contact links. Add or remove any networks. -->
+
+            <div class="contact-info">
+                <a href="mailto:email@example.com">dylan.oseida.103@my.csun.edu</a>
+            </div>
+
+            <p>Copyright 2025 by Dylan Oseida</p>
+        </div>
     </footer>
 </body>
 </html>
